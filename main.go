@@ -2,7 +2,6 @@ package main
 
 import (
 	"automata/statemachine"
-	"fmt"
 	"log"
 )
 
@@ -58,6 +57,4 @@ func main() {
 	} else {
 		log.Print("Transitioned to C")
 	}
-
-	fmt.Printf("test")
 }
